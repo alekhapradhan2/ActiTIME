@@ -11,7 +11,7 @@ import org.testng.Assert;
 
 public class CreateNewCustomerRepo {
 
-	
+	System.out.println("yes");
 	@FindBy(xpath  = "//input[contains(@class,'inputNameField')]")
 	private WebElement enterCustNameBox;
 	
