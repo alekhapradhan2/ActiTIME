@@ -1,0 +1,19 @@
+<suite name="ActiTIme Batch Execution" parallel="methods">
+	<test name="LoginFunction">
+		<classes>
+			<class name="TestRunnerBlock.LoginRunner"></class>	
+		</classes>
+	</test>
+	
+	<test name="Add New Customer">
+		<classes>
+			<class name="TestRunnerBlock.AddNewCustomer"></class>	
+		</classes>
+	</test>
+	
+	<test name="AddNewProject">
+		<classes>
+			<class name="TestRunnerBlock.AddNewProject"></class>	
+		</classes>
+	</test>
+</suite>

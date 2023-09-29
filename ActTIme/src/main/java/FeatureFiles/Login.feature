@@ -1,4 +1,6 @@
 Feature: Login Function
+
+
 Scenario: Validate Login With Valid Input
 Given Hera i Open the applicaation
 When i give valid username "admin" and valid password "manager"

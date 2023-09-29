@@ -10,7 +10,6 @@ import RepositoryOfAllPages.CreateNewCustomerRepo;
 import RepositoryOfAllPages.HomePageRepo;
 import RepositoryOfAllPages.TasksPageRepo;
 import RepositoryOfAllPages.createNewProjectRepo;
-import Utils.DataDrivenUtils;
 import Utils.JavaUtils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -22,7 +21,6 @@ public class AddNewCustomerTest extends BaseClass  {
 	TasksPageRepo tp;
 	CreateNewCustomerRepo cn;
 	JavaUtils ju;
-	DataDrivenUtils dv;
 	
 	int randomenumber;
 	int randomenumber1;

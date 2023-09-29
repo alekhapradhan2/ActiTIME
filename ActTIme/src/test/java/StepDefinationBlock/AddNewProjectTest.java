@@ -7,7 +7,6 @@ import RepositoryOfAllPages.CreateNewCustomerRepo;
 import RepositoryOfAllPages.HomePageRepo;
 import RepositoryOfAllPages.TasksPageRepo;
 import RepositoryOfAllPages.createNewProjectRepo;
-import Utils.DataDrivenUtils;
 import Utils.JavaUtils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -20,13 +19,11 @@ public class AddNewProjectTest extends BaseClass{
 	TasksPageRepo tp;
 	CreateNewCustomerRepo cn;
 	JavaUtils ju;
-	DataDrivenUtils dv;
 	
 	int randomenumber,randomenumber1;
 	
 	createNewProjectRepo cp;
 	
-
 	
 	@When("i click New Project")
 	public void i_click_new_project() {

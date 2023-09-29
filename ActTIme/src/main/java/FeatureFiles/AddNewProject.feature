@@ -21,5 +21,5 @@ Then i close the browser
 
 Examples:
 |NewProjectName|ExitCust|taskName|date|
-|Maruti Suzuki|Rajesh427|Make Wheel|31/January 2025|
+|Maruti Suzuki|Rajesh394|Make Wheel|31/January 2025|
 
